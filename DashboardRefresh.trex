@@ -6,7 +6,7 @@
     <name resource-id="name"/>
     <description>Data refresh of Tableau Dashboards</description>
     <author name="Andre de Vries" email="andre.devries@theinformationlab.co.uk" organization="The Information Lab" website="https://www.theinformationlab.co.uk"/>
-    <min-api-version>0.8</min-api-version>
+    <min-api-version>1.0</min-api-version>
     <source-location>
       <url>https://syl-repo-dev.github.io/DashboardRefresh/DashboardRefresh.html</url>
     </source-location>
