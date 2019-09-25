@@ -5,17 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Dashboard Data Refresh Tableau</title>
+    <title>Automated Tableau Dashboard Refresh Extension</title>
 </head>
 
 <body>
-    <p id="info">Please specify seconds per refresh cycle</p>
-    <input type="number" name="refreshTime" id="refreshTime" placeholder="Time in Seconds">
-    <button id="btn">Start Automated Refresh!</button>
-    <button id="btn-stop">Stop Automated Refresh!</button>
+    <div class="header">
+        <div class="hc">
+            <h1>Dashboard Refresh Extension</h1>
+            <p>A Tableau Extension to allow for automated refresh of a dashboard.</p>
+            <div class="buttons">
+                <a href="https://github.com/syl-repo-dev/DashboardRefresh" class="btn btn-light">View on GitHub</a>
+                <a href="https://syl-repo-dev.github.io/DashboardRefresh/DashboardRefresh.trex" class="btn btn-light">Download Manifest File</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="cc">
+            <h2>Dashboard Refresh Extension</h2>
+            <p>A Tableau Extension to allow for automated refresh of a dashboard.</p>
 
-    <script src="js/tableau-extensions-1.latest.min.js"></script>
-    <script src="js/app.js"></script>
+            <h2>Installing the Extension</h2>
+
+
+            <p>Download the Dashboard Refresh trex file <a href="https://syl-repo-dev.github.io/DashboardRefresh/DashboardRefresh.trex">manifest file</a>.</p>
+
+            <h2>Using the Extension</h2>
+            <ol>
+                <li>Drag in a new Extension object to your dashboard</li>
+                <li>Find the manifest (.trex) file you downloaded above</li>
+            </ol>
+        </div>
+    </div>
 </body>
 
 </html>
